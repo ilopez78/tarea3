@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tarea3</string>
+    <string name="txtnombre">Nombres</string>
+    <string name="txtape">Apellidos</string>
+    <string name="txtedad">Edad</string>
+    <string name="txtcorreo">Correo</string>
+    <string name="txtdireccion">Direccion</string>
+</resources>

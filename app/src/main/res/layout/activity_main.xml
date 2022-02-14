@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Personas"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombres" />
+
+        <EditText
+            android:id="@+id/txtnombre"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="@string/txtnombre"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellidos" />
+
+        <EditText
+            android:id="@+id/txtape"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="@string/txtape"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edad" />
+
+        <EditText
+            android:id="@+id/txtedad"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:ems="10"
+            android:hint="@string/txtedad"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correo" />
+
+        <EditText
+            android:id="@+id/txtcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:ems="10"
+            android:hint="@string/txtcorreo"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion" />
+
+        <EditText
+            android:id="@+id/txtdireccion"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="@string/txtdireccion"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btninsertar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar" />
+
+        <Button
+            android:id="@+id/btneditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btneliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnmostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar" />
+
+    </LinearLayout>
+</RelativeLayout>
